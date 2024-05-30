@@ -19,9 +19,8 @@ export class AccountWhtaxField extends Component {
         this.popover = usePopover();
         this.orm = useService("orm");
         this.action = useService("action");
-
-        this.formatData(this.props);
-        onWillUpdateProps((nextProps) => this.formatData(nextProps));
+        onWillRender(() =>{ this.formatData(this.props)
+        });
     }
 
     formatData(props) {
