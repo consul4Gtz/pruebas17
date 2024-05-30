@@ -14,7 +14,7 @@ class AccountMove(models.Model):
     l10n_hn_edi_sag = fields.Char('Sag Register')
     l10n_hn_edi_exempt_order = fields.Char('Exempt Order')
     l10n_hn_edi_exempt_certificate = fields.Char('Exempt Certificate')
-    l10n_hn_edi_diplomatic = fields.Char('Carnet de Diplomatico')
+    l10n_hn_edi_diplomatic_number = fields.Char('Carnet de Diplomatico')
     l10n_latam_document_type_id_code = fields.Char(related='l10n_latam_document_type_id.code', string='Doc Type')
     l10n_latam_internal_type = fields.Selection(
         related='l10n_latam_document_type_id.internal_type', string='L10n Latam Internal Type')
