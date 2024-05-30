@@ -25,7 +25,7 @@
         #'data/res_country_state.xml',
         'data/res_bank.xml',
         'data/report_paperformat_data.xml',
-        'data/l10n_hn_chart_data.xml',
+        #'data/l10n_hn_chart_data.xml',
         'data/account.group.csv',
         #'data/account.account.template.csv',
         #'data/l10n_hn_chart_post_data.xml',
