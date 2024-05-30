@@ -73,7 +73,6 @@
                             </group>
                             <group class="oe_invoice_lines_tab">
                                 <field name="wtax_widget" widget="whtax"/>
-                                <field name="my_widget" widget="my_owl_widget"/>
                             </group>                  
                             <!-- -->
                             <field name="narration" placeholder="Add an internal note..." nolabel="1" height="50"/>
