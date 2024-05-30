@@ -7,7 +7,7 @@ import { parseDate, formatDate } from "@web/core/l10n/dates";
 
 import { formatMonetary } from "@web/views/fields/formatters";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
-const { Component, onWillUpdateProps } = owl;
+const { Component, onWillRender } = owl;
 
 class AccountWhtaxPopOver extends Component {}
 AccountWhtaxPopOver.template = "l10n_hn_edi.AccountWhtaxPopOver";
